@@ -48,10 +48,13 @@ app.post('/api/notes', (req, res) => {
 })
 
 app.delete('/api/notes/:id', (req, res) => {
-     console.log("hit this");
+    console.log("hit this");
     const id = req.params.id;
+    console.log(id);
     let notes = JSON.parse(fs.readFileSync( './db/db.json', 'utf8'));
-    notes = notes.filter(note => note.id !== id);
+    console.log(notes);
+    notes = notes.filter(note => note.id === id);
+    console.log(notes);
     fs.writeFileSync('./db/db.json', JSON.stringify(notes));
     res.send(notes);
 
