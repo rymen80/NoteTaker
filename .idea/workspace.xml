@@ -21,6 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="36534958-297a-47b5-8cab-8f05a0de8105" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/db/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/public/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/public/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/public/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/Develop/package.json" />
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1ieWSl2j8K4x10xIsu3sX9vXVkB" />
   <component name="ProjectViewState">
@@ -58,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602268539641</updated>
-      <workItem from="1602268540805" duration="2448000" />
+      <workItem from="1602268540805" duration="2771000" />
     </task>
     <servers />
   </component>
