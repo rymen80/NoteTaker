@@ -34,7 +34,7 @@ app.get('/api/notes',(req, res) => {
     res.json(note);
 });
 
-
+// app.post that
 app.post('/api/notes', (req, res) => {
 
     const newNote = req.body;
@@ -45,7 +45,7 @@ app.post('/api/notes', (req, res) => {
     const newDb = [...dbNote, {...newNote,id }];
     fs.writeFileSync('./db/db.json', JSON.stringify(newDb));
     res.send(newNote);
-})
+});
 
 app.delete('/api/notes/:id', (req, res) => {
     console.log("hit this");
@@ -58,12 +58,7 @@ app.delete('/api/notes/:id', (req, res) => {
     fs.writeFileSync('./db/db.json', JSON.stringify(notes));
     res.send(notes);
 
-
-    // Should receive a query parameter containing the id of a note to delete. T
-    // his means you'll need to find a way to give each note a unique `id` when it's saved.
-    // In order to delete a note, you'll need to read all notes from the `db.json` file,
-    // remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
-})
+});
 
 
 app.listen(PORT, () => console.log(`hear you on port ${PORT}`));
